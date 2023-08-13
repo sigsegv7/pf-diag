@@ -34,8 +34,6 @@ dump(uint32_t errno)
     if ((errno & (1 << 15)) != 0) {
         printf("SGX violation [x]\n");
     }
-
-    printf("\n");
 }
 
 int
